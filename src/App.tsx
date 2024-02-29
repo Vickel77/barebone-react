@@ -4,13 +4,9 @@ import Button from "./components/Button";
 import Divider from "./components/Divider";
 import Dropdown from "./components/Dropdown";
 import Header from "./components/Header";
-import Modal from "./components/Modal";
 import Pill from "./components/Pill";
 import Table from "./components/Table";
-import Info from "./components/icons/Info";
 import InfoModal from "./components/Modal/InfoModal";
-import ConfirmModal from "./components/Modal/ConfirmModal";
-import RefusalModal from "./components/Modal/RedModal";
 import InvestmentTypeModal from "./components/Modal/InvestmentTypeModal";
 
 const GreyTag = ({ label }: { label: string }) => (
