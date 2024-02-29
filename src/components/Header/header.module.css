@@ -1,0 +1,16 @@
+.headerTop {
+  width: 100%;;
+  padding-block: 10px;
+  border-bottom: 1px solid var(--borderAccentLight);
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+header h1 .red {
+  font-size: 1rem;
+  color: var(--danger);
+
+}

@@ -1,0 +1,42 @@
+.tableWrap {
+  width:100%;
+  overflow:auto;
+}
+.tableWrap * {
+  font-weight: 400;
+}
+.table {
+  width: auto;
+  
+}
+.table thead {
+  background-color: var(--tableBg);
+
+}
+.table thead th {
+  padding: 15px 20px;
+}
+
+.table tbody {
+  background-color: var(--white);
+}
+.table tbody tr td {
+  padding: 10px 40px ;
+  word-break: keep-all;
+  
+}
+.table tbody tr td * {
+  word-break: keep-all;
+}
+.table tbody tr:nth-child(even) {
+  background-color: var(--tableBg2);
+  /* border: 1px solid red; */
+}
+ tfoot {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--tableBg);
+  /* padding: 15px 20px; */
+}

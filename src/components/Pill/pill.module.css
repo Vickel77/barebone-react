@@ -1,0 +1,16 @@
+.pill {
+  padding: 6px 12px;
+  border-radius: 15px;
+}
+.success {
+  background-color: var(--successBg);
+  color: var(--successText);
+}
+.error {
+  background-color: var(--errorBg);
+  color: var(--errorText);
+}
+.info {
+  background-color: var(--infoBg);
+  color: var(--infoText);
+}

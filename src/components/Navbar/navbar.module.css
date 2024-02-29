@@ -1,0 +1,20 @@
+.nav {
+  background-color: var(--primaryAccent);
+  width: 100%;
+  border-radius: 10px;
+  color: var(--textAccent);
+  overflow: hidden;
+  display: flex;
+}
+
+.span {
+  cursor: pointer;
+  padding: 10px 15px;
+  flex: 1;
+  text-align: center;
+  transition: all 0.25s;
+}
+.active {
+  background-color: var(--primary);
+  color: var(--white);
+}
